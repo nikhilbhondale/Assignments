@@ -22,7 +22,7 @@ insert into Worker values
 
 ##Assignment 3
 
-Select  LTRIM ("Amitabh") FROM Worker;
+UPDATE WORKER SET FIRST_NAME = LTRIM("Amitabh");
 
 select distinct(length(department)) from worker;
 
