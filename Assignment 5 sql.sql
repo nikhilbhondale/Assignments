@@ -28,8 +28,8 @@ insert into Worker values
 select * from worker
 where not FIRST_NAME = "Vipul" and not FIRST_NAME = "Satish";
 
-SELECT substring(FIRST_NAME,1,6) from worker
-where FIRST_NAME LIKE "%h";
+SELECT FIRST_NAME from worker
+where FIRST_NAME LIKE "_____h";
 
 SELECT * FROM WORKER
 WHERE email LIKE "%@xyz";
